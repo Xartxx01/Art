@@ -1,0 +1,115 @@
+.work {
+  height: 140rem;
+  width: 100%;
+  background-color: #0d0d0d;
+  padding: 4rem 4rem;
+
+  position: static;
+
+  @media (max-width: 426px) {
+    height: 105rem;
+  }
+
+  .work-web {
+    @media (max-width: 767px) {
+      font-size: 10rem !important;
+      right: -1rem !important;
+    }
+  }
+
+  .projects {
+    @media (max-width: 1060px) {
+      margin-left: -6rem;
+    }
+
+    @media (max-width: 991px) {
+      margin-left: -10rem;
+    }
+
+    @media (max-width: 767px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+    }
+
+    #project-one {
+      height: 22rem;
+      width: 40rem;
+      margin-top: 6rem;
+      border: 1px solid #fff;
+      margin-left: 20rem;
+
+      @media (max-width: 767px) {
+        margin-left: auto;
+        z-index: 2;
+      }
+
+      @media (max-width: 426px) {
+        height: 14rem;
+        width: 27rem;
+      }
+    }
+
+    #project-two {
+      height: 22rem;
+      width: 40rem;
+      margin-top: 6rem;
+      border: 1px solid #fff;
+      margin-left: 60rem;
+
+      @media (max-width: 767px) {
+        margin-left: auto;
+      }
+
+      @media (max-width: 426px) {
+        height: 14rem;
+        width: 27rem;
+      }
+    }
+
+    #project-three {
+      height: 22rem;
+      width: 40rem;
+      margin-top: 10rem;
+      border: 1px solid #fff;
+      margin-left: 30rem;
+
+      @media (max-width: 767px) {
+        margin-left: auto;
+        margin-top: 6rem;
+      }
+
+      @media (max-width: 426px) {
+        height: 14rem;
+        width: 27rem;
+      }
+    }
+
+    #project-four {
+      height: 22rem;
+      width: 40rem;
+      margin-top: 8rem;
+      border: 1px solid #fff;
+      margin-left: 80rem;
+
+      @media (max-width: 1060px) {
+        margin-left: 55rem;
+      }
+
+      @media (max-width: 767px) {
+        margin-left: auto;
+        margin-top: 6rem;
+      }
+
+      @media (max-width: 426px) {
+        height: 14rem;
+        width: 27rem;
+      }
+    }
+
+    .project-ones {
+      height: inherit;
+      width: inherit;
+    }
+  }
+}
